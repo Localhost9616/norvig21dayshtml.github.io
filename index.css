@@ -1,0 +1,97 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+    /* background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://img.freepik.com/free-vector/blue-cyber-future-technology-concept-background_42077-488.jpg?size=626&ext=jpg");
+    color: aliceblue; */
+     /* url(https://img.freepik.com/free-vector/blue-cyber-future-technology-concept-background_42077-488.jpg?size=626&ext=jpg); */
+}
+
+.heading1{
+    font-size: 5rem;
+    /* width: 100vw; */
+    
+}
+@media (max-width: 480px) {
+    .heading1 {
+      font-size: 3rem;
+    }
+  }
+@media (max-width :620px) {
+    .heading1 {
+        font-size: 3rem;
+      }
+  }
+.maindiv{
+    position: absolute;
+    top: 14rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.subheading1{
+    font-size: 2rem;
+    position: absolute;
+    right: 10rem;
+    top: 10rem;
+}
+.headingdiv{
+    height: 10rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+p{
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.p2heading{
+    font-style: italic;
+}
+li{
+    font-size: 2rem;
+}
+.list{
+    list-style-type: none;
+}
+.table{
+    height: 30rem;
+    width: 55rem;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tablediv{
+    height: 2.1rem;
+    width: 26.6rem;
+    border: 2px solid black;
+    margin: 0.2rem;
+    font-size: 1.6rem;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.listdiv1{
+    margin-left: 4rem;
+}
+.right{
+    text-align: end;
+}
+.left{
+    text-align: left;
+}
