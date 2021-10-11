@@ -1,0 +1,134 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+    background-color: whitesmoke;
+    /* background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://img.freepik.com/free-vector/blue-cyber-future-technology-concept-background_42077-488.jpg?size=626&ext=jpg");
+    color: aliceblue; */
+     /* url(https://img.freepik.com/free-vector/blue-cyber-future-technology-concept-background_42077-488.jpg?size=626&ext=jpg); */
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.heading1{
+    font-size: 5rem;
+    /* width: 100vw; */
+    color: #0f0f50;
+    text-shadow: 2px 4px 2px rgb(206, 186, 189);
+    margin-bottom: 2rem;
+}
+@media (max-width: 480px) {
+    .heading1 {
+      font-size: 3rem;
+    }
+  }
+@media (max-width :620px) {
+    .heading1 {
+        font-size: 3rem;
+      }
+  }
+  @media screen
+  and (min-device-width: 620px)
+  and (max-device-width: 900px){
+    .heading1 {
+      margin-top: 7rem;
+    }
+}
+  @media screen
+  and (min-device-width: 0px)
+  and (max-device-width: 340px){
+    .heading1 {
+      margin-top: 3rem;
+    }
+}
+  /* @media screen
+  and (min-device-width: 0px)
+  and (max-device-width: 340px){
+    .subheading1 {
+        position: absolute;
+      right: 7rem;
+    }
+} */
+.maindiv{
+    position: absolute;
+    top: 14rem;
+    padding-left: 1rem;
+    padding-right: 3rem;
+}
+.subheading1{
+    font-size: 2rem;
+    position: absolute;
+    right: 10rem;
+    top: 10rem;
+    text-shadow: 2px 3px 2px rgb(206, 186, 189);
+}
+.headingdiv{
+    height: 10rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+p{
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.p2heading{
+    font-style: italic;
+}
+li{
+    font-size: 2rem;
+}
+.list{
+    list-style-type: none;
+}
+.table{
+    height: 30rem;
+    width: 55rem;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tablediv{
+    height: 2.1rem;
+    width: 26.6rem;
+    border: 2px solid black;
+    margin: 0.2rem;
+    font-size: 1.6rem;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+hr{
+    margin-bottom: 2rem;
+}
+h1{
+    font-size: 3rem;
+    /* margin-bottom: 2rem; */
+    margin-top: 2rem;
+    color: #3f0315;
+    text-shadow: 1px 2px 2px rgb(206, 186, 189);
+}
+.listdiv1{
+    margin-left: 4rem;
+}
+.right{
+    text-align: end;
+}
+.left{
+    text-align: left;
+}
