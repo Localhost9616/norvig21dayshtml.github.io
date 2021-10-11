@@ -35,6 +35,13 @@ a:hover{
         font-size: 3rem;
       }
   }
+  @media screen
+  and (min-device-width: 0px)
+  and (max-device-width: 340px){
+    .heading1 {
+      margin-top: 3rem;
+    }
+}
 .maindiv{
     position: absolute;
     top: 14rem;
